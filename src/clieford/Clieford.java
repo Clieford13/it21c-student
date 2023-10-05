@@ -9,6 +9,7 @@ package clieford;
  *
  * @author PC-6
  */
+import java.time.LocalDate;
 public class Clieford {
 
     /**
@@ -16,11 +17,12 @@ public class Clieford {
      */
     public static void main(String[] args) {
        
-       Employee employee1 = new Employee("Roberta petrus", 50000);
-       System.out.println(employee1.empName +" "+employee1.empSalary);
+       Employee Employee1 = new Employee("Roberta petrus", 50000, LocalDate.parse("2021-04-01"));
+       
+       System.out.println(Employee1.empName +" "+Employee1.empSalary +" "+Employee1.getEmpDate() );
            
        }
            
     }
     
-}
+
