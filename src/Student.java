@@ -8,7 +8,7 @@ package clieford;/**
  * @author PC-6
  */
 public class Student {
-    String name,section,motto;
+   public String name,section,motto;
     
     Student(String name, String section, String motto){
         this.name = name;
@@ -16,13 +16,13 @@ public class Student {
           this.motto = motto;
     }
     
-    String getName(){
+   public String getName(){
         return name;
     }
-    String getSection(){
+   public String getSection(){
         return section;
     }
-    String getMotto(){
+   public String getMotto(){
         return motto;
     }
 }
