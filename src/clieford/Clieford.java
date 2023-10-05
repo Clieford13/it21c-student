@@ -15,12 +15,12 @@ public class Clieford {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Student student1 = new Student("clieford","it21c","life is good");
-        
-        System.out.println(student1.getName());
-        System.out.println(student1.getSection());
-        System.out.println(student1.getMotto());
-        // TODO code application logic here
+       
+       Employee employee1 = new Employee("Roberta petrus", 50000);
+       System.out.println(employee1.empName +" "+employee1.empSalary);
+           
+       }
+           
     }
     
 }
